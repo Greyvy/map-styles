@@ -4,6 +4,7 @@ Helpful links
 - [json formatter](http://www.freeformatter.com/json-formatter.html)
 - [Styling wizard](http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html)
 - [Public dev link](http://dev.greyvy.com/unionvictoria/map/)
+- [Some snazzy maps](http://snazzymaps.com/)
 
 Breakpoints
 - v1 is at ____ or _____
