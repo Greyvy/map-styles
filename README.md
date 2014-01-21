@@ -1,4 +1,4 @@
-# Union Map
+# Map styles
 
 Helpful links
 - [json formatter](http://www.freeformatter.com/json-formatter.html)
