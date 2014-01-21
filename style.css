@@ -20,6 +20,15 @@ body {
     font-family: "Knockout-29JuniorLtweight", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
 
 /*
  * Typography
@@ -72,11 +81,22 @@ h1, .h1 {
 
 .SiteHeader {
     margin-bottom: 2em;
+    padding: 2em 1.5em;
+    text-align: center;
+    background-color: #827a75;
+    color: #fff;
+}
+
+.SiteFooter {
+    overflow: hidden;
+    padding: 1.5em;
+    background-color: #393938;
+    color: #fff;
 }
 
 .Content {
     max-width: 60em;
-    margin: 0 auto;
+    margin: 0 auto 2em;
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
@@ -115,12 +135,16 @@ h1, .h1 {
     letter-spacing: 0.1em;
     list-style: none;
     margin: 0;
-    padding: 0 0 1em;
+    padding-left: 0;
 }
 
 .Control-list > li {
     text-transform: uppercase;
-    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.Control-list > li:first-child {
+    border-top: 0;
 }
 
 .Control-list > li a,
@@ -131,8 +155,6 @@ h1, .h1 {
 
 .Control-result {
     font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    border-bottom: 1px solid;
-    padding-bottom: 0.5em;
     padding-left: 1.5em;
 }
 
